@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    fingerprintd \
-    mcDriverDaemon \
-    fingerprint.exynos5 \
-    libbauthtzcommon_shim
+LOCAL_PATH := $(call my-dir)
+
+include $(call all-makefiles-under,$(LOCAL_PATH))
