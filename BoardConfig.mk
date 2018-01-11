@@ -19,6 +19,8 @@ include device/samsung/exynos7870-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/on7xelte
 
+TARGET_OTA_ASSERT_DEVICE := on7xelte
+
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
