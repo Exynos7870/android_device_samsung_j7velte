@@ -21,6 +21,8 @@ LOCAL_PATH := device/samsung/on7xelte
 
 TARGET_OTA_ASSERT_DEVICE := on7xelte
 
+TARGET_KERNEL_CONFIG := lineage-on7xelte_defconfig
+
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
