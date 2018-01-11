@@ -19,5 +19,8 @@ include device/samsung/exynos7870-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/on7xelte
 
+# Include path
+TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
+
 # Inherit from the proprietary version
 -include vendor/samsung/on7xelte/BoardConfigVendor.mk
