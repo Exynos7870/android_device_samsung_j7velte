@@ -24,5 +24,8 @@ TARGET_OTA_ASSERT_DEVICE := on7xelte
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
+# inherit the splitted configs
+-include $(LOCAL_PATH)/board/*.mk
+
 # Inherit from the proprietary version
 -include vendor/samsung/on7xelte/BoardConfigVendor.mk

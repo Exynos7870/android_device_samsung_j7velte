@@ -18,6 +18,9 @@ LOCAL_PATH := device/samsung/on7xelte
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# include splitted configs
+-include $(LOCAL_PATH)/product/*.mk
+
 # Inherit from Exynos7870-common
 $(call inherit-product, device/samsung/exynos7870-common/device-common.mk)
 
