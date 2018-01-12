@@ -17,11 +17,11 @@
 # Inherit from Exynos7870-common
 include device/samsung/exynos7870-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/on7xelte
+LOCAL_PATH := device/samsung/j7velte
 
-TARGET_OTA_ASSERT_DEVICE := on7xelte
+TARGET_OTA_ASSERT_DEVICE := j7velte
 
-TARGET_KERNEL_CONFIG := lineage-on7xelte_defconfig
+TARGET_KERNEL_CONFIG := lineage-j7velte_defconfig
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
@@ -30,4 +30,4 @@ TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 -include $(LOCAL_PATH)/board/*.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/on7xelte/BoardConfigVendor.mk
+-include vendor/samsung/j7velte/BoardConfigVendor.mk

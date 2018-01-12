@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/on7xelte
+LOCAL_PATH := device/samsung/j7velte
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -25,4 +25,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, device/samsung/exynos7870-common/device-common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/on7xelte/on7xelte-vendor.mk)
+$(call inherit-product, vendor/samsung/j7velte/j7velte-vendor.mk)
