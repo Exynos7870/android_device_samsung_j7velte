@@ -14,15 +14,15 @@
 # limitations under the License.
 #
 
-TARGET_OTA_ASSERT_DEVICE := on7xelte
+TARGET_OTA_ASSERT_DEVICE := j7velte
 
 # Inherit from Exynos7870-common
 include device/samsung/exynos7870-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/on7xelte
+LOCAL_PATH := device/samsung/j7velte
 
 # inherit the splitted configs
 -include $(LOCAL_PATH)/board/*.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/on7xelte/BoardConfigVendor.mk
+-include vendor/samsung/j7velte/BoardConfigVendor.mk

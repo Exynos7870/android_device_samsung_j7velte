@@ -15,4 +15,4 @@
 #
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage-on7xelte_defconfig
+TARGET_KERNEL_CONFIG := lineage-j7velte_defconfig
