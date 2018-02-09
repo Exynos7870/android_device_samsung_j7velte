@@ -22,6 +22,10 @@ ro.opengles.version=196610
 ro.sf.lcd_density=320
 lockscreen.rot_override=true
 
+# HWC
+debug.hwc.otf=1
+debug.hwc.winupdate=1
+
 # Hwui
 ro.hwui.texture_cache_size=50
 ro.hwui.layer_cache_size=34
@@ -35,14 +39,6 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
-
-# HWC
-debug.hwc.force_gpu=0
-debug.hwc.max_hw_overlays=5
-debug.egl.hw=1
-debug.sf.enable_hwc_vds=1
-debug.sf.hw=1
-persist.sys.ui.hw=true
 
 # Boot directly from charger mode
 ro.enable_boot_charger_mode=1
