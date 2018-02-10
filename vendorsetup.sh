@@ -1,1 +1,1 @@
-add_lunch_combo lineage_j7velte-userdebug
+add_lunch_combo rr_j7velte-userdebug
