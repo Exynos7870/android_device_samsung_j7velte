@@ -21,7 +21,6 @@ on post-fs-data
     chown system root /data/misc/conn/.psm.info
     chmod 0664 /data/misc/conn/.psm.info
 
-
     # for WIFI Antenna Selection
     chown system root /data/misc/conn/.ant.info
     chmod 0664 /data/misc/conn/.ant.info
@@ -75,20 +74,6 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant -iwlan0 -Dnl80211 -c/data/m
     disabled
     oneshot
 
-# tiburona
-# start for WiFi MFG (TestMode)
-service mfgloader /system/bin/mfgloader
-    class main
-    disabled
-    oneshot
-
-service wlandutservice /system/bin/wlandutservice
-    class main
-    user system
-    group wifi net_raw net_admin system inet
-    disabled
-    oneshot
-
 service macloader /system/bin/macloader
     class main
     oneshot
@@ -98,4 +83,3 @@ on property:init.svc.macloader=stopped
     chmod 0664 /data/misc/conn/.cid.info
     chown system root /data/.rev
     chmod 0664 /data/.rev
-# end of WiFi MFG (TestMode)
