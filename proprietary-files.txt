@@ -1,6 +1,6 @@
 #Audio
-vendor/lib/libLifevibes_lvverx.so
-vendor/lib/libLifevibes_lvvetx.so
+vendor/lib/libLifevibes_lvverx.so:vendor/lib/soundfx/libLifevibes_lvverx.so
+vendor/lib/libLifevibes_lvvetx.so:vendor/lib/soundfx/libLifevibes_lvvetx.so
 
 #Bluetooth
 bin/prepare_param.sh
