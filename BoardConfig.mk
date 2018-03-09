@@ -30,5 +30,8 @@ BOARD_SEPOLICY_DIRS += device/samsung/on7xelte/sepolicy
 # Properties
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 
+# Hidl
+DEVICE_MANIFEST_FILE := device/samsung/on7xelte/manifest.xml
+
 # Inherit from the proprietary version
 -include vendor/samsung/on7xelte/BoardConfigVendor.mk
