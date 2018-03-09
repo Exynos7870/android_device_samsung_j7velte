@@ -27,6 +27,5 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_on7xelte
 PRODUCT_DEVICE := on7xelte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G610F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

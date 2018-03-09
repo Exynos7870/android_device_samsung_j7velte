@@ -24,6 +24,9 @@ LOCAL_PATH := device/samsung/on7xelte
 # inherit the splitted configs
 -include $(LOCAL_PATH)/board/*.mk
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_on7xelte
+
 # SELinux
 BOARD_SEPOLICY_DIRS += device/samsung/on7xelte/sepolicy
 
