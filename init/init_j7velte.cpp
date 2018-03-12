@@ -63,30 +63,10 @@ void init_target_properties()
 
     std::string bootloader = GetProperty("ro.bootloader", "");
 
-    if (bootloader.find("G610F") == 0) {
-        property_override("ro.build.fingerprint", "samsung/on7xeltedd/on7xelte:7.0/NRD90M/G610FDDU1BQL9:user/release-keys");
-        property_override("ro.build.description", "on7xeltedd-user 7.0 NRD90M G610FDDU1BQL9 release-keys");
-        property_override("ro.product.model", "SM-G610F");
-    } else if (bootloader.find("G610L") == 0) {
-        property_override("ro.build.fingerprint", "samsung/on7xeltekl/on7xelte:7.0/NRD90M/G610LKLU1BQL3:user/release-keys");
-        property_override("ro.build.description", "on7xeltekl-user 7.0 NRD90M G610LKLU1BQL3 release-keys");
-        property_override("ro.product.model", "SM-G610L");
-    } else if (bootloader.find("G610K") == 0) {
-        property_override("ro.build.fingerprint", "samsung/on7xeltekk/on7xelte:7.0/NRD90M/G610KKKU1BQL3:user/release-keys");
-        property_override("ro.build.description", "on7xeltekk-user 7.0 NRD90M G610KKKU1BQL3 release-keys");
-        property_override("ro.product.model", "SM-G610K");
-    } else if (bootloader.find("G610S") == 0) {
-        property_override("ro.build.fingerprint", "samsung/on7xelteks/on7xelte:7.0/NRD90M/G610SKSU1BQL3:user/release-keys");
-        property_override("ro.build.description", "on7xelteks-user 7.0 NRD90M G610SKSU1BQL3 release-keys");
-        property_override("ro.product.model", "SM-G610S");
-    } else if (bootloader.find("G610M") == 0) {
-        property_override("ro.build.fingerprint", "samsung/on7xelteub/on7xeltektt:7.0/NRD90M/G610MUBU1BRB1:user/release-keys");
-        property_override("ro.build.description", "on7xelteub-user 7.0 NRD90M G610MUBU1BRB1 release-keys");
-        property_override("ro.product.model", "SM-G610M");
-    } else if (bootloader.find("G610Y") == 0) {
-        property_override("ro.build.fingerprint", "samsung/on7xeltezt/on7xeltektt:7.0/NRD90M/G610YZTU1AQK1:user/release-keys");
-        property_override("ro.build.description", "on7xeltezt-user 7.0 NRD90M G610YZTU1AQK1 release-keys");
-        property_override("ro.product.model", "SM-G610Y");
+    if (bootloader.find("J701F") == 0) {
+        property_override("ro.build.fingerprint", "samsung/j7veltedx/j7velte:7.0/NRD90M/J701FDDU1AQG1:user/release-keys");
+        property_override("ro.build.description", "j7veltedx-user 7.0 NRD90M J701FDDU1AQG1 release-keys");
+        property_override("ro.product.model", "SM-J701F");
     }
 
     std::string device = GetProperty("ro.product.device", "");
