@@ -1,16 +1,11 @@
-#Audio
-vendor/lib/libLifevibes_lvverx.so:vendor/lib/soundfx/libLifevibes_lvverx.so
-vendor/lib/libLifevibes_lvvetx.so:vendor/lib/soundfx/libLifevibes_lvvetx.so
-
 #Bluetooth
 bin/prepare_param.sh
 vendor/firmware/bcm43438A1_V0056.0257.hcd
 vendor/firmware/bcm43436B0_V0052.0061.hcd
 vendor/lib/libbt-vendor.so
-etc/bluetooth/bt_stack.conf
 
 # Camera
-lib/hw/camera.universal7870.so
+lib/hw/camera.universal7870.so:lib/hw/camera.vendor.universal7870.so
 lib/libexynoscamera.so
 lib/libexynoscamera3.so
 lib/libseccameracore.so
@@ -42,6 +37,8 @@ etc/ca.pem
 lib/hw/gps.default.so
 lib/libfloatingfeature.so
 lib/libwrappergps.so
+vendor/lib/hw/flp.default.so
+vendor/lib/libflp.so
 
 # Graphics
 vendor/lib/egl/libGLES_mali.so

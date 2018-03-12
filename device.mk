@@ -23,6 +23,12 @@ TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 # include splitted configs
 -include $(LOCAL_PATH)/product/*.mk
 
+# Dalvik Heap
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
+
+# Hwui Memory
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+
 # Inherit from Exynos7870-common
 $(call inherit-product, device/samsung/exynos7870-common/device-common.mk)
 

@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,18 +13,6 @@
 # limitations under the License.
 #
 
-# Inherit device configuration
-$(call inherit-product, device/samsung/j7velte/device.mk)
-
-# Inherit from those products. Most specific first
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
-# Device identifier
-PRODUCT_NAME := lineage_j7velte
-PRODUCT_DEVICE := j7velte
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
+# Shim
+TARGET_LD_SHIM_LIBS += \
+    /system/lib/libbauthserver.so|/vendor/lib/libbauthtzcommon_shim.so

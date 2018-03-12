@@ -16,3 +16,4 @@
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage-j7velte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/exynos7870
