@@ -47,12 +47,6 @@ on boot
     chown system radio /sys/class/camera/front/front_caminfo
     chown system radio /sys/class/camera/front/front_sensorid
 
-# Permissions for Fingerprint_sensor
-    chown system radio /sys/class/fingerprint/fingerprint/type_check
-    chown system radio /sys/class/fingerprint/fingerprint/name
-    chown system radio /sys/class/fingerprint/fingerprint/vendor
-    chown system radio /sys/class/fingerprint/fingerprint/adm
-
 # Permissions for LCD
     chown system radio /sys/class/lcd/panel/lcd_type
     chown system system /sys/class/lcd/panel/lux
