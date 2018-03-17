@@ -1,2 +1,0 @@
-# Fingerprint
-/data/biometrics(/.*)?       u:object_r:fingerprintd_data_file:s0
