@@ -88,7 +88,6 @@ lib/omx/libOMX.Exynos.MPEG4.Decoder.so|3ff80196c6d70f219d5bbe6a91f34a719eb2f6ad
 lib/omx/libOMX.Exynos.MPEG4.Encoder.so|2f463a292368dca26acef73251a264a33095372f
 lib/omx/libOMX.Exynos.VP8.Decoder.so|7afb6748434c64354e9d5568b004901365a5cf06
 lib/omx/libOMX.Exynos.VP8.Encoder.so|3cbaf4e5088d72ca6b26303e881dfff59d1949b3
-lib/omx/libOMX.Exynos.VP9.Decoder.so|7afb6748434c64354e9d5568b004901365a5cf06
 lib/omx/libOMX.Exynos.WMV.Decoder.so|fd60b506d708dd065d9cbd60ade13d0ff3ab14cb
 
 # Radio
