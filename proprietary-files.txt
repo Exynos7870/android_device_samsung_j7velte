@@ -51,7 +51,6 @@ vendor/firmware/fimc_is_lib.bin
 vendor/firmware/mfc_fw.bin
 
 # Mobicore
-bin/mcDriverDaemon
 app/FFFFFFFF000000000000000000000001.drbin
 app/mcRegistry/00060308060501020000000000000000.tlbin
 app/mcRegistry/ffffffff00000000000000000000000a.tlbin  
@@ -76,8 +75,6 @@ app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 app/mcRegistry/ffffffff000000000000000000000005.tlbin  
 app/mcRegistry/ffffffff000000000000000000000012.tlbin  
 app/mcRegistry/ffffffff000000000000000000000041.tlbin
-vendor/lib/libMcClient.so
-vendor/lib/libMcRegistry.so
 
 # OMX
 lib/omx/libOMX.Exynos.AVC.Decoder.so
