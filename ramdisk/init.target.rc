@@ -61,7 +61,8 @@ on boot
     chown system radio /sys/class/sensors/proximity_sensor/name
     chown system radio /sys/class/sensors/proximity_sensor/prox_trim
     chown system radio /sys/class/sensors/proximity_sensor/prox_offset_pass
-
+    chown system radio /sys/class/sensors/proximity_sensor/state
+    chown system radio /sys/class/sensors/proximity_sensor/barcode_emul_en
 # Permissions for SVC LED
     chown system system /sys/class/sec/led/led_blink
     chown system system /sys/class/sec/led/led_r
@@ -77,10 +78,17 @@ on boot
     chmod 0660 /sys/class/sec/tsp/input/enabled
 
 # Permissions for Touchkey
+    chown system radio /sys/class/sec/sec_touchkey/brightness
     chown system radio /sys/class/sec/sec_touchkey/touchkey_firm_update
     chown system system /sys/class/sec/sec_touchkey/input/enabled
-
+    chown system radio /sys/class/sec/sec_touchkey/touch_sensitivity
+    chown system radio /sys/class/sec/sec_touchkey/glove_mode
+    chown system radio /sys/class/sec/sec_touchkey/flip_mode
     chmod 0660 /sys/class/sec_touchkey/input/enabled
+
+# Permissions for Light Sensor
+
+chown system radio /sys/class/sensors/light_sensor/lux
 
 # Permission for Vibrator
     chown system system /sys/class/timed_output/vibrator/enable
