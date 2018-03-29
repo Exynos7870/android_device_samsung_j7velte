@@ -49,7 +49,7 @@ void vendor_load_properties()
 
     if (name.size() == 0) {
         LOG(ERROR) << "Could not detect codename, forcing j7velte";
-        name = "j7velte";
+        name = "j7veltedx";
     }
 
     description = name + "-user 7.0 NRD90M " + bl_model + bl_build + " release-keys";
