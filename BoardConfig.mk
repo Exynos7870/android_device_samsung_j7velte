@@ -25,7 +25,7 @@ LOCAL_PATH := device/samsung/j7velte
 -include $(LOCAL_PATH)/board/*.mk
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_j7velte
+TARGET_INIT_VENDOR_LIB := libinit_sec
 
 # Properties
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop

@@ -12,7 +12,7 @@ typedef struct {
 
 static const variant J701F_model = {
     .model = "SM-J701F",
-    .codename = "j7velte"
+    .codename = "j7veltedx"
 };
 
 static const variant J701M_model = {
