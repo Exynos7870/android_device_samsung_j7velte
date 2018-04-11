@@ -24,6 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/cos/common.mk)
 
 # Device identifier
+COS_RELEASE=true
 PRODUCT_NAME := cos_j7velte
 PRODUCT_DEVICE := j7velte
 PRODUCT_BRAND := samsung
