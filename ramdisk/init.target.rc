@@ -13,7 +13,7 @@ on boot
     chmod 0666 /efs/calibration_data
 
 # Permissions for Bluetooth.
-    setprop ro.bt.bdaddr_path "/efs/bluetooth/bt_addr"
+    setprop ro.bt.bdaddr_path /efs/bluetooth/bt_addr
     chown bluetooth bluetooth ro.bt.bdaddr_path
     chown radio bluetooth /efs/bluetooth/bt_addr
     chmod 0640 /efs/bluetooth/bt_addr
