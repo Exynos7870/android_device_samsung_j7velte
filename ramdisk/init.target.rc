@@ -96,9 +96,6 @@ chown system radio /sys/class/sensors/light_sensor/lux
 # Permission for Wifi firmware_path
     chown wifi wifi /sys/module/dhd/parameters/firmware_path
 
-# SSWAP
-    write /proc/sys/vm/swappiness 130
-
 # Permission for Mobicore
     chown radio system /dev/mobicore-user
     chown system system /dev/mobicore
@@ -113,9 +110,3 @@ on nonencrypted
 
 on property:vold.decrypt=trigger_restart_framework
     mkdir /data/misc/mcRegistry 0775 system system
-
-service sswap /sbin/sswap -s -f 1536
-    class core
-    user root
-    group root
-    oneshot
