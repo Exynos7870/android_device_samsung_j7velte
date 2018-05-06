@@ -6,3 +6,6 @@ ro.sf.lcd_density=320
 
 # Sdcardfs
 ro.sys.sdcardfs=false
+
+# Audio
+audio_hal.disable_two_mic=true
