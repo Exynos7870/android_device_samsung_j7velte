@@ -28,6 +28,8 @@ vendor/lib/libHpr_LocFace_mvfd_v1.0.so
 
 # DRM
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
+lib/libstagefright_hdcp.so
+lib/liboemcrypto.so
 
 
 # GPS
