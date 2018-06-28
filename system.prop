@@ -1,4 +1,4 @@
-# Disable tripple bufferring to reduce lags
+# Enable triple bufferring to reduce lags
 ro.sf.disable_triple_buffer=0
 
 # DPI
