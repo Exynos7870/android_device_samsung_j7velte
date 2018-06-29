@@ -21,10 +21,10 @@ $(call inherit-product, device/samsung/j7velte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_j7velte
+PRODUCT_NAME := aosip_j7velte
 PRODUCT_DEVICE := j7velte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
