@@ -4,7 +4,7 @@
       -->
     <hal format="hidl">
         <name>android.hardware.bluetooth</name>
-        <transpor>passthrough</transport>
+	<transport arch="32">passthrough</transport>
         <version>1.0</version>
         <interface>
             <name>IBluetoothHci</name>
@@ -51,27 +51,23 @@
         </interface>
     </hal>
 
-
-    <!--
-        Lights
-      -->
-    <hal format="hidl">
-        <name>android.hardware.light</name>
-        <transport arch="32">passthrough</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ILight</name>
-            <instance>default</instance>
-        </interface>
-</hal>
-
     <!--
         DRM
       -->
     <hal format="hidl">
         <name>android.hardware.drm</name>
-        <transport arch="32">passthrough</transport>
+        <transport>hwbinder</transport>
         <version>1.0</version>
+        <interface>
+            <name>ICryptoFactory</name>
+            <instance>widevine</instance>
+            <instance>default</instance>
+        </interface>
+        <interface>
+             <name>IDrmFactory</name>
+             <instance>widevine</instance>
+             <instance>default</instance>
+         </interface>
     </hal>
 
     <!--
@@ -98,12 +94,6 @@
             <name>IAllocator</name>
             <instance>default</instance>
         </interface>
-    </hal>
-
-    <hal format="hidl">
-        <name>android.hardware.graphics.composer</name>
-        <transport arch="32">passthrough</transport>
-        <version>2.1</version>
     </hal>
 
     <hal format="hidl">
@@ -134,10 +124,23 @@
       -->
     <hal format="hidl">
         <name>android.hardware.keymaster</name>
-        <transport arch="32">passthrough</transport>
+        <transport>hwbinder</transport>
         <version>3.0</version>
         <interface>
             <name>IKeymasterDevice</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!--
+        Lights
+      -->
+    <hal format="hidl">
+        <name>android.hardware.light</name>
+        <transport arch="32">passthrough</transport>
+        <version>2.0</version>
+        <interface>
+            <name>ILight</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -147,7 +150,7 @@
       -->
     <hal format="hidl">
         <name>android.hardware.memtrack</name>
-        <transport arch="32">passthrough</transport>
+        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IMemtrack</name>
@@ -205,6 +208,10 @@
         <name>android.hardware.renderscript</name>
         <transport arch="32">passthrough</transport>
         <version>1.0</version>
+        <interface>
+            <name>IDevice</name>
+            <instance>default</instance>
+        </interface>
     </hal>
 
     <!--
@@ -212,8 +219,12 @@
       -->
     <hal format="hidl">
         <name>android.hardware.sensors</name>
-        <transport arch="32">passthrough</transport>
+        <transport>hwbinder</transport>
         <version>1.0</version>
+        <interface>
+            <name>ISensors</name>
+            <instance>default</instance>
+        </interface>
     </hal>
 
     <!--
