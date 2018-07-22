@@ -2,5 +2,33 @@
     {
         "repository": "android_device_samsung_exynos7870-common",
         "target_path": "device/samsung/exynos7870-common"
+    },
+    {
+        "repository": "android_hardware_samsung",
+        "target_path": "hardware/samsung"
+    },
+    {
+        "repository": "android_hardware_samsung_slsi-cm_exynos",
+        "target_path": "hardware/samsung_slsi-cm/exynos"
+    },
+    {
+        "repository": "android_hardware_samsung_slsi-cm_exynos5",
+        "target_path": "hardware/samsung_slsi-cm/exynos5"
+    },
+    {
+        "repository": "android_hardware_samsung_slsi-cm_exynos7870",
+        "target_path": "hardware/samsung_slsi-cm/exynos7870"
+    },
+    {
+        "repository": "android_hardware_samsung_slsi-cm_openmax",
+        "target_path": "hardware/samsung_slsi-cm/openmax"
+    },
+    {
+        "repository": "android_kernel_samsung_exynos7870",
+        "target_path": "kernel/samsung/exynos7870"
+    },
+    {
+        "repository": "proprietary_vendor_samsung_on7xelte",
+        "target_path": "vendor/samsung/on7xelte"
     }
 ]
