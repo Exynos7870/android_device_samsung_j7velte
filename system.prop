@@ -1,3 +1,6 @@
+# Audio
+audio_hal.disable_two_mic=true
+
 # Enable triple bufferring to reduce lags
 ro.sf.disable_triple_buffer=0
 
