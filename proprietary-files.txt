@@ -2,7 +2,6 @@
 bin/prepare_param.sh
 vendor/firmware/bcm43438A1_V0056.0257.hcd
 vendor/firmware/bcm43436B0_V0052.0061.hcd
-vendor/lib/libbt-vendor.so
 
 # Camera
 lib/hw/camera.universal7870.so:lib/hw/camera.vendor.universal7870.so
@@ -29,6 +28,8 @@ vendor/lib/libHpr_LocFace_mvfd_v1.0.so
 
 # DRM
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
+lib/libstagefright_hdcp.so
+lib/liboemcrypto.so
 
 
 # GPS

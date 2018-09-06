@@ -1,4 +1,4 @@
-# Disable tripple bufferring to reduce lags
+# Enable triple bufferring to reduce lags
 ro.sf.disable_triple_buffer=0
 
 # DPI
@@ -6,3 +6,8 @@ ro.sf.lcd_density=320
 
 # Sdcardfs
 ro.sys.sdcardfs=false
+
+# Audio
+audio_hal.disable_two_mic=true
+# ro.product.first_api_level indicates the first api level the device has commercially launched on.
+ro.product.first_api_level=24
