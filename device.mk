@@ -20,6 +20,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
+# Manifest
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml
+
 # include splitted configs
 -include $(LOCAL_PATH)/product/*.mk
 
