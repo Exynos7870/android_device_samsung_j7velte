@@ -39,9 +39,6 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDim">4</integer>
 
-    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
-         in hardware. -->
-    <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_nightDisplayAvailable">true</bool>
 
     <!-- Control whether the always on display mode is available. This should only be enabled on
