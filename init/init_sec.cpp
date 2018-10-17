@@ -53,7 +53,7 @@ void vendor_load_properties()
     }
 
     description = name + "-user 7.0 NRD90M " + bl_model + bl_build + " release-keys";
-    fingerprint = "Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys";
+    fingerprint = "samsung/" + name + "/" + device + ":7.0/NRD90M/" + bl_model + bl_build + ":user/release-keys";
 
     LOG(INFO) << "Found bootloader: %s", bootloader.c_str();
     LOG(INFO) << "Setting ro.product.model: %s", model.c_str();
