@@ -9,12 +9,6 @@ lib/libexynoscamera.so
 lib/libexynoscamera3.so
 lib/libseccameracore.so
 lib/libuniplugin.so
-lib/libhwjpeg.so
-lib/libexynosutils.so
-lib/libcsc.so
-lib/libexynosgscaler.so
-lib/libexynosscaler.so
-lib/libexynosv4l2.so
 lib/libstainkiller.so
 lib/libHpr_RecFace_dl_v1.0.so
 lib/libHpr_RecGAE_cvFeature_v1.0.so
@@ -106,9 +100,6 @@ lib/libsensorlistener.so
 # Shim Libs
 lib/libprotobuf-cpp-N.so|f8b1e1d088cd4707393a1fad233f8b06116bc666
 lib/libprotobuf-cpp-fooo.so|5890f0daae5933210aa6b114bafc52ee7e809864
-
-# Surface Composer
-lib/hw/gralloc.exynos5.so
 
 # Widewine from Pixel 2
 vendor/lib/mediadrm/libwvdrmengine.so|2b5aa5d4d8665d4bd1180d5ccd8028cb

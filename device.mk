@@ -32,3 +32,4 @@ $(call inherit-product, device/samsung/exynos7870-common/device-common.mk)
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/j7velte/j7velte-vendor.mk)
+$(call inherit-product, vendor/samsung/j7velte/exynos7870-common-vendor.mk)
