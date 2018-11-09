@@ -20,4 +20,7 @@
 
 #define BTM_DEF_LOCAL_NAME   "J7 NXT"
 
+/* Disable the eSCO commands */
+#define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
+
 #endif
