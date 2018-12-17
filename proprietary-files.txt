@@ -84,14 +84,23 @@ lib/omx/libOMX.Exynos.VP8.Decoder.so
 lib/omx/libOMX.Exynos.VP8.Encoder.so
 lib/omx/libOMX.Exynos.WMV.Decoder.so
 
-# Radio
-lib/libsec-ril.so|09f007ba0fd0a66b98ccd4c4b8275c703a6a6804
-lib/libsec-ril-dsds.so|baf6ac2e770b0456ad1ad3906c92a4deebd11040
-lib/libsecril-client.so
+# Radio (OREO)
+lib/android.hardware.radio@1.1.so
 lib/libaudio-ril.so
-lib/librilutils.so
 lib/libsecnativefeature.so
-
+lib/libsecril-client.so
+vendor/bin/hw/rild
+vendor/lib/libreference-ril.so
+vendor/lib/libril.so
+vendor/lib/librilutils.so
+vendor/lib/libsec-ril.so
+vendor/lib/libsec-ril-dsds.so
+vendor/lib/libsecnativefeature.so
+vendor/lib/libvndsecril-client.so
+vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so
+vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so
+vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so
+    
 # Sensors
 lib/hw/sensors.universal7870.so
 lib/libsensorservice.so
